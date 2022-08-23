@@ -30,5 +30,8 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Usuário ou Senha Incorreto", Toast.LENGTH_SHORT).show()
             }
         }
+        binding.buttonSenha.setOnClickListener {
+            Toast.makeText(this, "esqueceu a senha", Toast.LENGTH_SHORT).show()
+        }
     }
 }
